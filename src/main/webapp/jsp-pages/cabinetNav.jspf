@@ -1,0 +1,53 @@
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<%@ page language="java" contentType="text/html; charset=utf-8" pageEncoding="utf-8"%>
+
+<ul class="nav nav-pills nav-stacked">
+    <li><a href="cabinet"> <i class="fa fa-user"></i> Профіль</a></li>
+    <c:if test="${sessionScope.currentUser.role.name=='GUEST'}">
+        <li><a href="myBookings"> <i class="fa fa-archive"></i> Бронювання</a></li>
+    </c:if>
+    <c:if test="${sessionScope.currentUser.role.name=='ADMIN'}">
+        <li>
+        <form method="get" action="${pageContext.request.contextPath}/adminPanel" id="created">
+            <input type="text" hidden name="bookingStatus" value="CREATED">
+            <a href="javascript:$('#created').submit();"> <i class="fa fa-archive"></i>Нові бронювання</a>
+        </form>
+        </li>
+        <li>
+            <form method="get" action="${pageContext.request.contextPath}/adminPanel" id="canceled">
+                <input type="text" hidden name="bookingStatus" value="CANCELED">
+                <a href="javascript:$('#canceled').submit();"> <i class="fa fa-archive"></i>Cкасовані бронювання</a>
+            </form>
+        </li>
+        <li>
+            <form method="get" action="${pageContext.request.contextPath}/adminPanel" id="confirmed">
+                <input type="text" hidden name="bookingStatus" value="CONFIRMED">
+                <a href="javascript:$('#confirmed').submit();"> <i class="fa fa-archive"></i>Підтверджені бронювання</a>
+            </form>
+        </li>
+        <li>
+            <form method="get" action="${pageContext.request.contextPath}/adminPanel" id="denied">
+                <input type="text" hidden name="bookingStatus" value="DENIED">
+                <a href="javascript:$('#denied').submit();"> <i class="fa fa-archive"></i>Відхилені бронювання</a>
+            </form>
+        </li>
+        <li>
+            <form method="get" action="${pageContext.request.contextPath}/adminPanel" id="paid">
+                <input type="text" hidden name="bookingStatus" value="PAID">
+                <a href="javascript:$('#paid').submit();"> <i class="fa fa-archive"></i>Сплачені бронювання</a>
+            </form>
+        </li>
+        <li>
+            <form method="get" action="${pageContext.request.contextPath}/adminPanel" id="cancellation_requested">
+                <input type="text" hidden name="bookingStatus" value="CANCELLATION_REQUESTED">
+                <a href="javascript:$('#cancellation_requested').submit();"> <i class="fa fa-archive"></i>Запитано скасування</a>
+            </form>
+        </li>
+        <li>
+            <form method="get" action="${pageContext.request.contextPath}/adminPanel" id="completed">
+                <input type="text" hidden name="bookingStatus" value="COMPLETED">
+                <a href="javascript:$('#completed').submit();"> <i class="fa fa-archive"></i>Завершені бронювання</a>
+            </form>
+        </li>
+    </c:if>
+</ul>

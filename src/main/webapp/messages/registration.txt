@@ -1,0 +1,3 @@
+Successful registration!
+Hello *! Thanks for registration in our booking service Palyanytsya Corporation!
+Have a nice day!

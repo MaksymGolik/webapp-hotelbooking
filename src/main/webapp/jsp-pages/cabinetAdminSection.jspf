@@ -1,0 +1,52 @@
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<%@ page language="java" contentType="text/html; charset=utf-8" pageEncoding="utf-8"%>
+
+<div class="profile-info col-md-9">
+
+    <div class="panel">
+        <div class="bio-graph-heading">
+            The best place for you Journey
+        </div>
+        <div class="panel-body bio-graph-info">
+            <h1>Панель управління бронюваннями</h1>
+            <c:if test="${requestScope.errorMessage==null}">
+            <div class="tbl-header">
+                <table>
+                    <thead>
+                    <tr>
+                        <th>Номер бронювання</th>
+                        <th>Номер гостя</th>
+                        <th>Час створення</th>
+                        <th>Остання зміна</th>
+                        <th>Стан</th>
+                        <th>Деталі</th>
+                    </tr>
+                    </thead>
+                </table>
+            </div>
+            <div class="tbl-content">
+                <table>
+                    <tbody>
+                    <c:forEach var="booking" items="${requestScope.bookingList}">
+                        <tr class="first-row">
+                            <td>${booking.id}</td>
+                            <td>${booking.userId}</td>
+                            <td>${booking.createTime}</td>
+                            <td>${booking.lastUpdateTime}</td>
+                            <td>${booking.status.description}</td>
+                            <td>
+                                <form method="get" action="${pageContext.request.contextPath}/bookingControl">
+                                    <input type="number" hidden name="bookingId" value="${booking.id}">
+                                    <button type="submit" class="btn btn-primary">Деталі</button>
+                                </form>
+                            </td>
+                        </tr>
+                    </c:forEach>
+                    </tbody>
+                </table>
+            </div>
+            </c:if>
+            <h2>${requestScope.errorMessage}</h2>
+        </div>
+    </div>
+</div>

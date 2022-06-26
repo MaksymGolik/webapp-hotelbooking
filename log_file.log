@@ -1,0 +1,557 @@
+11-06-2022 22:48:14 DEBUG HikariConfig.attemptFromContextLoader, line 971 -> Driver class com.mysql.cj.jdbc.Driver found in Thread context class loader ParallelWebappClassLoader
+  context: ROOT
+  delegate: false
+----------> Parent Classloader:
+java.net.URLClassLoader@39ed3c8d
+
+11-06-2022 22:48:14 DEBUG HikariConfig.logConfiguration, line 1103 -> HikariPool-1 - configuration:
+11-06-2022 22:48:14 DEBUG HikariConfig.logConfiguration, line 1135 -> allowPoolSuspension................................false
+11-06-2022 22:48:14 DEBUG HikariConfig.logConfiguration, line 1135 -> autoCommit................................true
+11-06-2022 22:48:14 DEBUG HikariConfig.logConfiguration, line 1135 -> catalog................................none
+11-06-2022 22:48:14 DEBUG HikariConfig.logConfiguration, line 1135 -> connectionInitSql................................none
+11-06-2022 22:48:14 DEBUG HikariConfig.logConfiguration, line 1135 -> connectionTestQuery................................none
+11-06-2022 22:48:14 DEBUG HikariConfig.logConfiguration, line 1135 -> connectionTimeout................................30000
+11-06-2022 22:48:14 DEBUG HikariConfig.logConfiguration, line 1135 -> dataSource................................none
+11-06-2022 22:48:14 DEBUG HikariConfig.logConfiguration, line 1135 -> dataSourceClassName................................none
+11-06-2022 22:48:14 DEBUG HikariConfig.logConfiguration, line 1135 -> dataSourceJNDI................................none
+11-06-2022 22:48:14 DEBUG HikariConfig.logConfiguration, line 1135 -> dataSourceProperties................................{cacheServerConfiguration=true, useServerPrepStmts=true, elideSetAutoCommits=true, cachePrepStmts=true, rewriteBatchedStatements=true, cacheResultSetMetadata=true, useLocalSessionState=true, maintainTimeStats=false, prepStmtCacheSize=250, prepStmtCacheSqlLimit=2048, password=<masked>}
+11-06-2022 22:48:14 DEBUG HikariConfig.logConfiguration, line 1135 -> driverClassName................................"com.mysql.cj.jdbc.Driver"
+11-06-2022 22:48:14 DEBUG HikariConfig.logConfiguration, line 1135 -> exceptionOverrideClassName................................none
+11-06-2022 22:48:14 DEBUG HikariConfig.logConfiguration, line 1135 -> healthCheckProperties................................{}
+11-06-2022 22:48:14 DEBUG HikariConfig.logConfiguration, line 1135 -> healthCheckRegistry................................none
+11-06-2022 22:48:14 DEBUG HikariConfig.logConfiguration, line 1135 -> idleTimeout................................600000
+11-06-2022 22:48:14 DEBUG HikariConfig.logConfiguration, line 1135 -> initializationFailTimeout................................1
+11-06-2022 22:48:14 DEBUG HikariConfig.logConfiguration, line 1135 -> isolateInternalQueries................................false
+11-06-2022 22:48:14 DEBUG HikariConfig.logConfiguration, line 1135 -> jdbcUrl................................jdbc:mysql://localhost:3306/test
+11-06-2022 22:48:14 DEBUG HikariConfig.logConfiguration, line 1135 -> keepaliveTime................................0
+11-06-2022 22:48:14 DEBUG HikariConfig.logConfiguration, line 1135 -> leakDetectionThreshold................................0
+11-06-2022 22:48:14 DEBUG HikariConfig.logConfiguration, line 1135 -> maxLifetime................................1800000
+11-06-2022 22:48:14 DEBUG HikariConfig.logConfiguration, line 1135 -> maximumPoolSize................................10
+11-06-2022 22:48:14 DEBUG HikariConfig.logConfiguration, line 1135 -> metricRegistry................................none
+11-06-2022 22:48:14 DEBUG HikariConfig.logConfiguration, line 1135 -> metricsTrackerFactory................................none
+11-06-2022 22:48:14 DEBUG HikariConfig.logConfiguration, line 1135 -> minimumIdle................................10
+11-06-2022 22:48:14 DEBUG HikariConfig.logConfiguration, line 1135 -> password................................<masked>
+11-06-2022 22:48:14 DEBUG HikariConfig.logConfiguration, line 1135 -> poolName................................"HikariPool-1"
+11-06-2022 22:48:14 DEBUG HikariConfig.logConfiguration, line 1135 -> readOnly................................false
+11-06-2022 22:48:14 DEBUG HikariConfig.logConfiguration, line 1135 -> registerMbeans................................false
+11-06-2022 22:48:14 DEBUG HikariConfig.logConfiguration, line 1135 -> scheduledExecutor................................none
+11-06-2022 22:48:14 DEBUG HikariConfig.logConfiguration, line 1135 -> schema................................none
+11-06-2022 22:48:14 DEBUG HikariConfig.logConfiguration, line 1135 -> threadFactory................................internal
+11-06-2022 22:48:14 DEBUG HikariConfig.logConfiguration, line 1135 -> transactionIsolation................................"TRANSACTION_READ_COMMITTED"
+11-06-2022 22:48:14 DEBUG HikariConfig.logConfiguration, line 1135 -> username................................"root"
+11-06-2022 22:48:14 DEBUG HikariConfig.logConfiguration, line 1135 -> validationTimeout................................5000
+11-06-2022 22:48:14 INFO HikariDataSource.<init>, line 80 -> HikariPool-1 - Starting...
+11-06-2022 22:48:15 DEBUG HikariPool.checkFailFast, line 565 -> HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@609bc765
+11-06-2022 22:48:15 INFO HikariDataSource.<init>, line 82 -> HikariPool-1 - Start completed.
+11-06-2022 22:48:15 INFO ContextListener.contextInitialized, line 19 -> Connection successful
+11-06-2022 22:48:15 DEBUG HikariPool.logPoolState, line 421 -> HikariPool-1 - Pool stats (total=1, active=1, idle=0, waiting=0)
+11-06-2022 22:48:15 DEBUG HikariPool$PoolEntryCreator.call, line 729 -> HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4fd529f3
+11-06-2022 22:48:15 DEBUG HikariPool$PoolEntryCreator.call, line 729 -> HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5debb824
+11-06-2022 22:48:15 DEBUG HikariPool$PoolEntryCreator.call, line 729 -> HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@46c54da1
+11-06-2022 22:48:15 DEBUG HikariPool$PoolEntryCreator.call, line 729 -> HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@59928bc
+11-06-2022 22:48:15 DEBUG HikariPool$PoolEntryCreator.call, line 729 -> HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@c2416b0
+11-06-2022 22:48:15 DEBUG HikariPool$PoolEntryCreator.call, line 729 -> HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3d38f994
+11-06-2022 22:48:15 DEBUG HikariPool$PoolEntryCreator.call, line 729 -> HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@564d63f0
+11-06-2022 22:48:15 DEBUG HikariPool$PoolEntryCreator.call, line 729 -> HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@73bd7549
+11-06-2022 22:48:15 DEBUG HikariPool$PoolEntryCreator.call, line 729 -> HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@49036687
+11-06-2022 22:48:15 DEBUG HikariPool.logPoolState, line 421 -> HikariPool-1 - After adding stats (total=10, active=1, idle=9, waiting=0)
+11-06-2022 22:48:45 DEBUG HikariPool.logPoolState, line 421 -> HikariPool-1 - Pool stats (total=10, active=1, idle=9, waiting=0)
+11-06-2022 22:48:45 DEBUG HikariPool.fillPool, line 518 -> HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+11-06-2022 22:49:15 DEBUG HikariPool.logPoolState, line 421 -> HikariPool-1 - Pool stats (total=10, active=1, idle=9, waiting=0)
+11-06-2022 22:49:15 DEBUG HikariPool.fillPool, line 518 -> HikariPool-1 - Fill pool skipped, pool is at sufficient level.
+11-06-2022 22:49:40 INFO HikariDataSource.<init>, line 80 -> HikariPool-1 - Starting...
+11-06-2022 22:49:41 INFO HikariDataSource.<init>, line 82 -> HikariPool-1 - Start completed.
+11-06-2022 22:49:41 INFO ContextListener.contextInitialized, line 19 -> Connection successful
+11-06-2022 23:14:12 INFO HikariDataSource.<init>, line 80 -> HikariPool-2 - Starting...
+11-06-2022 23:14:12 INFO HikariDataSource.<init>, line 82 -> HikariPool-2 - Start completed.
+11-06-2022 23:14:40 INFO HikariDataSource.<init>, line 80 -> HikariPool-3 - Starting...
+11-06-2022 23:14:40 INFO HikariDataSource.<init>, line 82 -> HikariPool-3 - Start completed.
+11-06-2022 23:15:34 INFO HikariDataSource.<init>, line 80 -> HikariPool-4 - Starting...
+11-06-2022 23:15:34 INFO HikariDataSource.<init>, line 82 -> HikariPool-4 - Start completed.
+11-06-2022 23:16:01 INFO HikariDataSource.<init>, line 80 -> HikariPool-1 - Starting...
+11-06-2022 23:16:02 INFO HikariDataSource.<init>, line 82 -> HikariPool-1 - Start completed.
+11-06-2022 23:16:02 INFO ContextListener.contextInitialized, line 23 -> Connection successful
+11-06-2022 23:16:07 INFO HikariDataSource.<init>, line 80 -> HikariPool-2 - Starting...
+11-06-2022 23:16:07 INFO HikariDataSource.<init>, line 82 -> HikariPool-2 - Start completed.
+11-06-2022 23:16:13 INFO HikariDataSource.<init>, line 80 -> HikariPool-3 - Starting...
+11-06-2022 23:16:13 INFO HikariDataSource.<init>, line 82 -> HikariPool-3 - Start completed.
+11-06-2022 23:16:22 INFO HikariDataSource.<init>, line 80 -> HikariPool-4 - Starting...
+11-06-2022 23:16:22 INFO HikariDataSource.<init>, line 82 -> HikariPool-4 - Start completed.
+12-06-2022 00:00:54 INFO HikariDataSource.<init>, line 80 -> HikariPool-1 - Starting...
+12-06-2022 00:00:55 INFO HikariDataSource.<init>, line 82 -> HikariPool-1 - Start completed.
+12-06-2022 00:00:55 INFO ContextListener.contextInitialized, line 23 -> Connection successful
+12-06-2022 00:00:58 INFO HikariDataSource.<init>, line 80 -> HikariPool-2 - Starting...
+12-06-2022 00:00:58 INFO HikariDataSource.<init>, line 82 -> HikariPool-2 - Start completed.
+12-06-2022 00:01:07 INFO HikariDataSource.<init>, line 80 -> HikariPool-3 - Starting...
+12-06-2022 00:01:07 INFO HikariDataSource.<init>, line 82 -> HikariPool-3 - Start completed.
+12-06-2022 00:01:07 ERROR UserService.getUserByEmail, line 66 -> com.my.exception.DataNotFoundException: Data not found in DB by request
+12-06-2022 01:08:56 INFO HikariDataSource.<init>, line 80 -> HikariPool-1 - Starting...
+12-06-2022 01:08:57 INFO HikariDataSource.<init>, line 82 -> HikariPool-1 - Start completed.
+12-06-2022 01:08:57 INFO ContextListener.contextInitialized, line 23 -> Connection successful
+12-06-2022 01:09:01 INFO HikariDataSource.<init>, line 80 -> HikariPool-2 - Starting...
+12-06-2022 01:09:01 INFO HikariDataSource.<init>, line 82 -> HikariPool-2 - Start completed.
+12-06-2022 01:12:09 INFO HikariDataSource.<init>, line 80 -> HikariPool-3 - Starting...
+12-06-2022 01:12:09 INFO HikariDataSource.<init>, line 82 -> HikariPool-3 - Start completed.
+12-06-2022 01:12:23 INFO HikariDataSource.<init>, line 80 -> HikariPool-4 - Starting...
+12-06-2022 01:12:23 INFO HikariDataSource.<init>, line 82 -> HikariPool-4 - Start completed.
+12-06-2022 02:03:41 INFO HikariDataSource.<init>, line 80 -> HikariPool-1 - Starting...
+12-06-2022 02:03:41 INFO HikariDataSource.<init>, line 82 -> HikariPool-1 - Start completed.
+12-06-2022 02:03:41 INFO ContextListener.contextInitialized, line 23 -> Connection successful
+12-06-2022 02:03:45 INFO HikariDataSource.<init>, line 80 -> HikariPool-2 - Starting...
+12-06-2022 02:03:45 INFO HikariDataSource.<init>, line 82 -> HikariPool-2 - Start completed.
+12-06-2022 02:03:55 INFO HikariDataSource.<init>, line 80 -> HikariPool-3 - Starting...
+12-06-2022 02:03:55 INFO HikariDataSource.<init>, line 82 -> HikariPool-3 - Start completed.
+12-06-2022 02:04:04 ERROR UserService.getUserByEmail, line 66 -> com.my.exception.DataNotFoundException: Data not found in DB by request
+12-06-2022 02:04:04 ERROR LoginServlet.doPost, line 52 -> com.my.exception.UserServiceException: Unknown user
+12-06-2022 02:04:47 INFO HikariDataSource.<init>, line 80 -> HikariPool-4 - Starting...
+12-06-2022 02:04:48 INFO HikariDataSource.<init>, line 82 -> HikariPool-4 - Start completed.
+12-06-2022 02:04:48 ERROR HotelRoomService.checkRoomAvailabilityByDates, line 120 -> com.my.exception.DataNotFoundException: Data not found in DB by request
+12-06-2022 02:04:48 INFO MakeBookingServlet.doPost, line 50 -> com.my.exception.HotelRoomServiceException: The selected room is taken
+12-06-2022 02:05:26 ERROR HotelRoomService.checkRoomAvailabilityByDates, line 120 -> com.my.exception.DataNotFoundException: Data not found in DB by request
+12-06-2022 02:05:26 INFO MakeBookingServlet.doPost, line 50 -> com.my.exception.HotelRoomServiceException: The selected room is taken
+12-06-2022 02:07:40 INFO HikariDataSource.<init>, line 80 -> HikariPool-1 - Starting...
+12-06-2022 02:07:41 INFO HikariDataSource.<init>, line 82 -> HikariPool-1 - Start completed.
+12-06-2022 02:07:41 INFO ContextListener.contextInitialized, line 23 -> Connection successful
+12-06-2022 02:07:47 INFO HikariDataSource.<init>, line 80 -> HikariPool-2 - Starting...
+12-06-2022 02:07:47 INFO HikariDataSource.<init>, line 82 -> HikariPool-2 - Start completed.
+12-06-2022 02:08:36 INFO HikariDataSource.<init>, line 80 -> HikariPool-1 - Starting...
+12-06-2022 02:08:37 INFO HikariDataSource.<init>, line 82 -> HikariPool-1 - Start completed.
+12-06-2022 02:08:37 INFO ContextListener.contextInitialized, line 23 -> Connection successful
+12-06-2022 02:08:41 INFO HikariDataSource.<init>, line 80 -> HikariPool-2 - Starting...
+12-06-2022 02:08:41 INFO HikariDataSource.<init>, line 82 -> HikariPool-2 - Start completed.
+12-06-2022 02:09:48 INFO HikariDataSource.<init>, line 80 -> HikariPool-3 - Starting...
+12-06-2022 02:09:48 INFO HikariDataSource.<init>, line 82 -> HikariPool-3 - Start completed.
+12-06-2022 02:10:02 INFO HikariDataSource.<init>, line 80 -> HikariPool-4 - Starting...
+12-06-2022 02:10:02 INFO HikariDataSource.<init>, line 82 -> HikariPool-4 - Start completed.
+12-06-2022 02:12:11 WARN HikariPool$HouseKeeper.run, line 788 -> HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=1m57s788ms818µs600ns).
+12-06-2022 02:12:11 WARN HikariPool$HouseKeeper.run, line 788 -> HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m26s438ms518µs901ns).
+12-06-2022 02:12:11 WARN HikariPool$HouseKeeper.run, line 788 -> HikariPool-4 - Thread starvation or clock leap detected (housekeeper delta=1m57s788ms515µs100ns).
+12-06-2022 02:12:11 WARN HikariPool$HouseKeeper.run, line 788 -> HikariPool-3 - Thread starvation or clock leap detected (housekeeper delta=1m49s909ms99µs200ns).
+12-06-2022 02:12:11 ERROR HotelRoomService.checkRoomAvailabilityByDates, line 120 -> com.my.exception.DataNotFoundException: Data not found in DB by request
+12-06-2022 02:12:11 INFO MakeBookingServlet.doPost, line 50 -> com.my.exception.HotelRoomServiceException: The selected room is taken
+12-06-2022 02:16:41 INFO HikariDataSource.<init>, line 80 -> HikariPool-1 - Starting...
+12-06-2022 02:16:42 INFO HikariDataSource.<init>, line 82 -> HikariPool-1 - Start completed.
+12-06-2022 02:16:42 INFO ContextListener.contextInitialized, line 23 -> Connection successful
+12-06-2022 02:16:46 INFO HikariDataSource.<init>, line 80 -> HikariPool-2 - Starting...
+12-06-2022 02:16:46 INFO HikariDataSource.<init>, line 82 -> HikariPool-2 - Start completed.
+12-06-2022 02:16:54 INFO HikariDataSource.<init>, line 80 -> HikariPool-3 - Starting...
+12-06-2022 02:16:54 INFO HikariDataSource.<init>, line 82 -> HikariPool-3 - Start completed.
+12-06-2022 02:17:28 INFO HikariDataSource.<init>, line 80 -> HikariPool-4 - Starting...
+12-06-2022 02:17:28 INFO HikariDataSource.<init>, line 82 -> HikariPool-4 - Start completed.
+12-06-2022 02:23:15 INFO HikariDataSource.<init>, line 80 -> HikariPool-1 - Starting...
+12-06-2022 02:23:16 INFO HikariDataSource.<init>, line 82 -> HikariPool-1 - Start completed.
+12-06-2022 02:23:16 INFO ContextListener.contextInitialized, line 23 -> Connection successful
+12-06-2022 02:23:19 INFO HikariDataSource.<init>, line 80 -> HikariPool-2 - Starting...
+12-06-2022 02:23:20 INFO HikariDataSource.<init>, line 82 -> HikariPool-2 - Start completed.
+12-06-2022 02:23:27 INFO HikariDataSource.<init>, line 80 -> HikariPool-3 - Starting...
+12-06-2022 02:23:27 INFO HikariDataSource.<init>, line 82 -> HikariPool-3 - Start completed.
+12-06-2022 02:23:30 INFO HikariDataSource.<init>, line 80 -> HikariPool-4 - Starting...
+12-06-2022 02:23:30 INFO HikariDataSource.<init>, line 82 -> HikariPool-4 - Start completed.
+12-06-2022 02:23:53 WARN HikariPool$HouseKeeper.run, line 788 -> HikariPool-4 - Thread starvation or clock leap detected (housekeeper delta=53s285ms241µs99ns).
+12-06-2022 02:32:52 INFO HikariDataSource.<init>, line 80 -> HikariPool-1 - Starting...
+12-06-2022 02:32:53 INFO HikariDataSource.<init>, line 82 -> HikariPool-1 - Start completed.
+12-06-2022 02:32:53 INFO ContextListener.contextInitialized, line 23 -> Connection successful
+12-06-2022 02:32:56 INFO HikariDataSource.<init>, line 80 -> HikariPool-2 - Starting...
+12-06-2022 02:32:56 INFO HikariDataSource.<init>, line 82 -> HikariPool-2 - Start completed.
+12-06-2022 02:33:05 INFO HikariDataSource.<init>, line 80 -> HikariPool-3 - Starting...
+12-06-2022 02:33:05 INFO HikariDataSource.<init>, line 82 -> HikariPool-3 - Start completed.
+12-06-2022 02:33:35 ERROR UserService.getUserByEmail, line 66 -> com.my.exception.DataNotFoundException: Data not found in DB by request
+12-06-2022 02:33:35 INFO RegisterServlet.doPost, line 41 -> com.my.exception.UserServiceException: Unknown user
+12-06-2022 02:34:24 INFO HikariDataSource.<init>, line 80 -> HikariPool-4 - Starting...
+12-06-2022 02:34:24 INFO HikariDataSource.<init>, line 82 -> HikariPool-4 - Start completed.
+12-06-2022 14:00:20 INFO HikariDataSource.<init>, line 80 -> HikariPool-1 - Starting...
+12-06-2022 14:00:21 INFO HikariDataSource.<init>, line 82 -> HikariPool-1 - Start completed.
+12-06-2022 14:00:21 INFO ContextListener.contextInitialized, line 23 -> Connection successful
+12-06-2022 14:00:27 INFO HikariDataSource.<init>, line 80 -> HikariPool-2 - Starting...
+12-06-2022 14:00:27 INFO HikariDataSource.<init>, line 82 -> HikariPool-2 - Start completed.
+12-06-2022 14:01:15 ERROR HotelRoomService.getAvailableRoomsByDatesAndNumberOfPeopleAndType, line 90 -> com.my.exception.DataNotFoundException: There is no way to accommodate the specified number of people in the available rooms
+12-06-2022 14:01:15 WARN SearchAvailableRoomsServlet.doGet, line 79 -> com.my.exception.HotelRoomServiceException: According to the given criteria no available rooms were found
+12-06-2022 14:05:02 INFO HikariDataSource.<init>, line 80 -> HikariPool-1 - Starting...
+12-06-2022 14:05:03 INFO HikariDataSource.<init>, line 82 -> HikariPool-1 - Start completed.
+12-06-2022 14:05:03 INFO ContextListener.contextInitialized, line 23 -> Connection successful
+12-06-2022 14:06:06 INFO HikariDataSource.<init>, line 80 -> HikariPool-2 - Starting...
+12-06-2022 14:06:06 INFO HikariDataSource.<init>, line 82 -> HikariPool-2 - Start completed.
+12-06-2022 14:06:34 ERROR HotelRoomService.getAvailableRoomsByDatesAndNumberOfPeopleAndType, line 90 -> com.my.exception.DataNotFoundException: There is no way to accommodate the specified number of people in the available rooms
+12-06-2022 14:06:34 WARN SearchAvailableRoomsServlet.doGet, line 79 -> com.my.exception.HotelRoomServiceException: According to the given criteria no available rooms were found
+12-06-2022 15:01:20 INFO HikariDataSource.<init>, line 80 -> HikariPool-1 - Starting...
+12-06-2022 15:01:21 INFO HikariDataSource.<init>, line 82 -> HikariPool-1 - Start completed.
+12-06-2022 15:01:21 INFO ContextListener.contextInitialized, line 23 -> Connection successful
+12-06-2022 15:01:25 INFO HikariDataSource.<init>, line 80 -> HikariPool-2 - Starting...
+12-06-2022 15:01:25 INFO HikariDataSource.<init>, line 82 -> HikariPool-2 - Start completed.
+12-06-2022 15:01:32 INFO HikariDataSource.<init>, line 80 -> HikariPool-3 - Starting...
+12-06-2022 15:01:32 INFO HikariDataSource.<init>, line 82 -> HikariPool-3 - Start completed.
+12-06-2022 15:01:36 INFO HikariDataSource.<init>, line 80 -> HikariPool-4 - Starting...
+12-06-2022 15:01:36 INFO HikariDataSource.<init>, line 82 -> HikariPool-4 - Start completed.
+12-06-2022 15:01:40 ERROR BookingService.getBookingsByStatus, line 168 -> com.my.exception.DataNotFoundException: Data not found in DB by request
+12-06-2022 15:01:40 INFO CabinetAdminPanelServlet.doGet, line 42 -> com.my.exception.BookingServiceException: Cannot find bookings by status
+12-06-2022 15:01:57 ERROR BookingService.getBookingsByStatus, line 168 -> com.my.exception.DataNotFoundException: Data not found in DB by request
+12-06-2022 15:01:57 INFO CabinetAdminPanelServlet.doGet, line 42 -> com.my.exception.BookingServiceException: Cannot find bookings by status
+12-06-2022 15:01:58 ERROR BookingService.getBookingsByStatus, line 168 -> com.my.exception.DataNotFoundException: Data not found in DB by request
+12-06-2022 15:01:58 INFO CabinetAdminPanelServlet.doGet, line 42 -> com.my.exception.BookingServiceException: Cannot find bookings by status
+12-06-2022 15:02:02 ERROR BookingService.getBookingsByStatus, line 168 -> com.my.exception.DataNotFoundException: Data not found in DB by request
+12-06-2022 15:02:02 INFO CabinetAdminPanelServlet.doGet, line 42 -> com.my.exception.BookingServiceException: Cannot find bookings by status
+12-06-2022 19:14:35 INFO HikariDataSource.<init>, line 80 -> HikariPool-1 - Starting...
+12-06-2022 19:14:36 INFO HikariDataSource.<init>, line 82 -> HikariPool-1 - Start completed.
+12-06-2022 19:14:36 INFO ContextListener.contextInitialized, line 23 -> Connection successful
+12-06-2022 19:16:52 INFO HikariDataSource.<init>, line 80 -> HikariPool-2 - Starting...
+12-06-2022 19:16:52 INFO HikariDataSource.<init>, line 82 -> HikariPool-2 - Start completed.
+12-06-2022 19:17:02 INFO HikariDataSource.<init>, line 80 -> HikariPool-3 - Starting...
+12-06-2022 19:17:02 INFO HikariDataSource.<init>, line 82 -> HikariPool-3 - Start completed.
+12-06-2022 19:17:05 INFO HikariDataSource.<init>, line 80 -> HikariPool-4 - Starting...
+12-06-2022 19:17:05 INFO HikariDataSource.<init>, line 82 -> HikariPool-4 - Start completed.
+12-06-2022 19:17:10 ERROR BookingService.getBookingsByStatus, line 168 -> com.my.exception.DataNotFoundException: Data not found in DB by request
+12-06-2022 19:17:10 INFO CabinetAdminPanelServlet.doGet, line 42 -> com.my.exception.BookingServiceException: Cannot find bookings by status
+12-06-2022 19:17:12 ERROR BookingService.getBookingsByStatus, line 168 -> com.my.exception.DataNotFoundException: Data not found in DB by request
+12-06-2022 19:17:12 INFO CabinetAdminPanelServlet.doGet, line 42 -> com.my.exception.BookingServiceException: Cannot find bookings by status
+13-06-2022 14:46:41 INFO HikariDataSource.<init>, line 80 -> HikariPool-1 - Starting...
+13-06-2022 14:46:42 INFO HikariDataSource.<init>, line 82 -> HikariPool-1 - Start completed.
+13-06-2022 14:46:42 INFO ContextListener.contextInitialized, line 23 -> Connection successful
+13-06-2022 14:46:47 INFO HikariDataSource.<init>, line 80 -> HikariPool-2 - Starting...
+13-06-2022 14:46:47 INFO HikariDataSource.<init>, line 82 -> HikariPool-2 - Start completed.
+13-06-2022 14:47:04 INFO HikariDataSource.<init>, line 80 -> HikariPool-3 - Starting...
+13-06-2022 14:47:04 INFO HikariDataSource.<init>, line 82 -> HikariPool-3 - Start completed.
+13-06-2022 14:47:04 ERROR UserService.getUserByEmail, line 71 -> com.my.exception.DataNotFoundException: Data not found in DB by request
+13-06-2022 14:47:04 INFO RegisterServlet.doPost, line 40 -> com.my.exception.UserServiceException: Unknown user
+13-06-2022 14:47:04 ERROR RegisterServlet.doPost, line 62 -> com.my.exception.UserServiceException: Uncorrected user data
+13-06-2022 15:01:40 INFO HikariDataSource.<init>, line 80 -> HikariPool-1 - Starting...
+13-06-2022 15:01:41 INFO HikariDataSource.<init>, line 82 -> HikariPool-1 - Start completed.
+13-06-2022 15:01:41 INFO ContextListener.contextInitialized, line 23 -> Connection successful
+13-06-2022 15:01:44 INFO HikariDataSource.<init>, line 80 -> HikariPool-2 - Starting...
+13-06-2022 15:01:44 INFO HikariDataSource.<init>, line 82 -> HikariPool-2 - Start completed.
+13-06-2022 19:23:33 INFO HikariDataSource.<init>, line 80 -> HikariPool-1 - Starting...
+13-06-2022 19:23:34 INFO HikariDataSource.<init>, line 82 -> HikariPool-1 - Start completed.
+13-06-2022 19:23:34 INFO ContextListener.contextInitialized, line 23 -> Connection successful
+13-06-2022 19:23:51 INFO HikariDataSource.<init>, line 80 -> HikariPool-2 - Starting...
+13-06-2022 19:23:51 INFO HikariDataSource.<init>, line 82 -> HikariPool-2 - Start completed.
+13-06-2022 19:23:59 INFO HikariDataSource.<init>, line 80 -> HikariPool-3 - Starting...
+13-06-2022 19:23:59 INFO HikariDataSource.<init>, line 82 -> HikariPool-3 - Start completed.
+13-06-2022 19:25:15 INFO HikariDataSource.<init>, line 80 -> HikariPool-4 - Starting...
+13-06-2022 19:25:15 INFO HikariDataSource.<init>, line 82 -> HikariPool-4 - Start completed.
+13-06-2022 20:20:05 INFO HikariDataSource.<init>, line 80 -> HikariPool-1 - Starting...
+13-06-2022 20:20:06 INFO HikariDataSource.<init>, line 82 -> HikariPool-1 - Start completed.
+13-06-2022 20:20:06 INFO ContextListener.contextInitialized, line 23 -> Connection successful
+13-06-2022 20:20:09 INFO HikariDataSource.<init>, line 80 -> HikariPool-2 - Starting...
+13-06-2022 20:20:09 INFO HikariDataSource.<init>, line 82 -> HikariPool-2 - Start completed.
+13-06-2022 20:20:18 INFO HikariDataSource.<init>, line 80 -> HikariPool-3 - Starting...
+13-06-2022 20:20:18 INFO HikariDataSource.<init>, line 82 -> HikariPool-3 - Start completed.
+13-06-2022 20:20:22 INFO HikariDataSource.<init>, line 80 -> HikariPool-4 - Starting...
+13-06-2022 20:20:22 INFO HikariDataSource.<init>, line 82 -> HikariPool-4 - Start completed.
+13-06-2022 20:21:27 ERROR ChangeBookingStatusServlet.doPost, line 35 -> com.my.exception.BookingServiceException: failed to change the status, perhaps the booking already has a different status
+14-06-2022 00:16:31 WARN HikariPool$HouseKeeper.run, line 788 -> HikariPool-4 - Thread starvation or clock leap detected (housekeeper delta=10m5s319ms116µs100ns).
+14-06-2022 00:16:45 WARN HikariPool$HouseKeeper.run, line 788 -> HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=10m5s300ms898µs600ns).
+14-06-2022 00:16:48 WARN HikariPool$HouseKeeper.run, line 788 -> HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=10m5s301ms492µs200ns).
+14-06-2022 00:16:57 WARN HikariPool$HouseKeeper.run, line 788 -> HikariPool-3 - Thread starvation or clock leap detected (housekeeper delta=10m5s298ms595µs).
+14-06-2022 14:09:17 INFO HikariDataSource.<init>, line 80 -> HikariPool-1 - Starting...
+14-06-2022 14:09:18 INFO HikariDataSource.<init>, line 82 -> HikariPool-1 - Start completed.
+14-06-2022 14:09:18 INFO ContextListener.contextInitialized, line 23 -> Connection successful
+14-06-2022 14:09:25 INFO HikariDataSource.<init>, line 80 -> HikariPool-2 - Starting...
+14-06-2022 14:09:25 INFO HikariDataSource.<init>, line 82 -> HikariPool-2 - Start completed.
+14-06-2022 15:52:16 INFO HikariDataSource.<init>, line 80 -> HikariPool-1 - Starting...
+14-06-2022 15:52:17 INFO HikariDataSource.<init>, line 82 -> HikariPool-1 - Start completed.
+14-06-2022 15:52:17 INFO ContextListener.contextInitialized, line 23 -> Connection successful
+14-06-2022 15:52:23 INFO HikariDataSource.<init>, line 80 -> HikariPool-2 - Starting...
+14-06-2022 15:52:23 INFO HikariDataSource.<init>, line 82 -> HikariPool-2 - Start completed.
+15-06-2022 23:52:24 INFO HikariDataSource.<init>, line 80 -> HikariPool-1 - Starting...
+15-06-2022 23:52:26 INFO HikariDataSource.<init>, line 82 -> HikariPool-1 - Start completed.
+15-06-2022 23:52:26 INFO ContextListener.contextInitialized, line 23 -> Connection successful
+16-06-2022 11:39:00 INFO HikariDataSource.<init>, line 80 -> HikariPool-1 - Starting...
+16-06-2022 11:39:01 INFO HikariDataSource.<init>, line 82 -> HikariPool-1 - Start completed.
+16-06-2022 11:39:01 INFO ContextListener.contextInitialized, line 23 -> Connection successful
+16-06-2022 11:39:10 INFO HikariDataSource.<init>, line 80 -> HikariPool-2 - Starting...
+16-06-2022 11:39:10 INFO HikariDataSource.<init>, line 82 -> HikariPool-2 - Start completed.
+16-06-2022 12:13:09 INFO HikariDataSource.<init>, line 80 -> HikariPool-1 - Starting...
+16-06-2022 12:13:10 INFO HikariDataSource.<init>, line 82 -> HikariPool-1 - Start completed.
+16-06-2022 12:13:10 INFO ContextListener.contextInitialized, line 23 -> Connection successful
+16-06-2022 12:13:15 INFO HikariDataSource.<init>, line 80 -> HikariPool-2 - Starting...
+16-06-2022 12:13:15 INFO HikariDataSource.<init>, line 82 -> HikariPool-2 - Start completed.
+16-06-2022 12:38:42 INFO HikariDataSource.<init>, line 80 -> HikariPool-1 - Starting...
+16-06-2022 12:38:43 INFO HikariDataSource.<init>, line 82 -> HikariPool-1 - Start completed.
+16-06-2022 12:38:43 INFO ContextListener.contextInitialized, line 23 -> Connection successful
+16-06-2022 12:38:47 INFO HikariDataSource.<init>, line 80 -> HikariPool-2 - Starting...
+16-06-2022 12:38:47 INFO HikariDataSource.<init>, line 82 -> HikariPool-2 - Start completed.
+16-06-2022 12:43:01 INFO HikariDataSource.<init>, line 80 -> HikariPool-3 - Starting...
+16-06-2022 12:43:01 INFO HikariDataSource.<init>, line 82 -> HikariPool-3 - Start completed.
+16-06-2022 12:43:10 INFO HikariDataSource.<init>, line 80 -> HikariPool-4 - Starting...
+16-06-2022 12:43:10 INFO HikariDataSource.<init>, line 82 -> HikariPool-4 - Start completed.
+16-06-2022 12:50:06 INFO HikariDataSource.<init>, line 80 -> HikariPool-1 - Starting...
+16-06-2022 12:50:07 INFO HikariDataSource.<init>, line 82 -> HikariPool-1 - Start completed.
+16-06-2022 12:50:07 INFO ContextListener.contextInitialized, line 23 -> Connection successful
+16-06-2022 12:50:10 INFO HikariDataSource.<init>, line 80 -> HikariPool-2 - Starting...
+16-06-2022 12:50:10 INFO HikariDataSource.<init>, line 82 -> HikariPool-2 - Start completed.
+16-06-2022 13:36:10 INFO HikariDataSource.<init>, line 80 -> HikariPool-3 - Starting...
+16-06-2022 13:36:10 INFO HikariDataSource.<init>, line 82 -> HikariPool-3 - Start completed.
+16-06-2022 13:50:15 INFO HikariDataSource.<init>, line 80 -> HikariPool-4 - Starting...
+16-06-2022 13:50:15 INFO HikariDataSource.<init>, line 82 -> HikariPool-4 - Start completed.
+16-06-2022 13:54:35 ERROR BookingService.getBookingsByStatus, line 163 -> com.my.exception.DataNotFoundException: Data not found in DB by request
+16-06-2022 13:54:35 INFO CabinetAdminPanelServlet.doGet, line 42 -> com.my.exception.BookingServiceException: Cannot find bookings by status
+16-06-2022 13:54:42 ERROR BookingService.getBookingsByStatus, line 163 -> com.my.exception.DataNotFoundException: Data not found in DB by request
+16-06-2022 13:54:42 INFO CabinetAdminPanelServlet.doGet, line 42 -> com.my.exception.BookingServiceException: Cannot find bookings by status
+16-06-2022 13:54:44 ERROR BookingService.getBookingsByStatus, line 163 -> com.my.exception.DataNotFoundException: Data not found in DB by request
+16-06-2022 13:54:44 INFO CabinetAdminPanelServlet.doGet, line 42 -> com.my.exception.BookingServiceException: Cannot find bookings by status
+16-06-2022 15:40:49 INFO HikariDataSource.<init>, line 80 -> HikariPool-1 - Starting...
+16-06-2022 15:40:50 INFO HikariDataSource.<init>, line 82 -> HikariPool-1 - Start completed.
+16-06-2022 15:40:50 INFO ContextListener.contextInitialized, line 23 -> Connection successful
+16-06-2022 15:41:00 INFO HikariDataSource.<init>, line 80 -> HikariPool-2 - Starting...
+16-06-2022 15:41:00 INFO HikariDataSource.<init>, line 82 -> HikariPool-2 - Start completed.
+16-06-2022 15:41:20 INFO HikariDataSource.<init>, line 80 -> HikariPool-3 - Starting...
+16-06-2022 15:41:20 INFO HikariDataSource.<init>, line 82 -> HikariPool-3 - Start completed.
+16-06-2022 15:42:16 INFO HikariDataSource.<init>, line 80 -> HikariPool-4 - Starting...
+16-06-2022 15:42:16 INFO HikariDataSource.<init>, line 82 -> HikariPool-4 - Start completed.
+16-06-2022 15:42:17 ERROR MySQLBookingDAOImpl.insertBooking, line 88 -> java.sql.SQLException: Generated keys not requested. You need to specify Statement.RETURN_GENERATED_KEYS to Statement.executeUpdate(), Statement.executeLargeUpdate() or Connection.prepareStatement().
+16-06-2022 15:42:17 ERROR MakeBookingServlet.doPost, line 87 -> com.my.exception.BookingServiceException: An error occurred while creating a booking
+16-06-2022 15:47:09 INFO HikariDataSource.<init>, line 80 -> HikariPool-1 - Starting...
+16-06-2022 15:47:10 INFO HikariDataSource.<init>, line 82 -> HikariPool-1 - Start completed.
+16-06-2022 15:47:10 INFO ContextListener.contextInitialized, line 23 -> Connection successful
+16-06-2022 15:48:18 INFO HikariDataSource.<init>, line 80 -> HikariPool-2 - Starting...
+16-06-2022 15:48:18 INFO HikariDataSource.<init>, line 82 -> HikariPool-2 - Start completed.
+16-06-2022 15:48:30 INFO HikariDataSource.<init>, line 80 -> HikariPool-3 - Starting...
+16-06-2022 15:48:30 INFO HikariDataSource.<init>, line 82 -> HikariPool-3 - Start completed.
+16-06-2022 15:48:55 INFO HikariDataSource.<init>, line 80 -> HikariPool-4 - Starting...
+16-06-2022 15:48:55 INFO HikariDataSource.<init>, line 82 -> HikariPool-4 - Start completed.
+16-06-2022 15:49:22 INFO HikariDataSource.<init>, line 80 -> HikariPool-5 - Starting...
+16-06-2022 15:49:22 INFO HikariDataSource.<init>, line 82 -> HikariPool-5 - Start completed.
+16-06-2022 15:49:22 INFO HikariDataSource.<init>, line 80 -> HikariPool-6 - Starting...
+16-06-2022 15:49:23 INFO HikariDataSource.<init>, line 82 -> HikariPool-6 - Start completed.
+16-06-2022 15:49:23 INFO ContextListener.contextInitialized, line 23 -> Connection successful
+16-06-2022 15:50:05 INFO HikariDataSource.<init>, line 80 -> HikariPool-7 - Starting...
+16-06-2022 15:50:05 INFO HikariDataSource.<init>, line 82 -> HikariPool-7 - Start completed.
+16-06-2022 15:50:18 INFO HikariDataSource.<init>, line 80 -> HikariPool-8 - Starting...
+16-06-2022 15:50:18 INFO HikariDataSource.<init>, line 82 -> HikariPool-8 - Start completed.
+16-06-2022 15:50:29 INFO HikariDataSource.<init>, line 80 -> HikariPool-9 - Starting...
+16-06-2022 15:50:29 INFO HikariDataSource.<init>, line 82 -> HikariPool-9 - Start completed.
+16-06-2022 18:13:37 INFO HikariDataSource.<init>, line 80 -> HikariPool-1 - Starting...
+16-06-2022 18:13:38 INFO HikariDataSource.<init>, line 82 -> HikariPool-1 - Start completed.
+16-06-2022 18:13:38 INFO ContextListener.contextInitialized, line 23 -> Connection successful
+16-06-2022 18:13:58 INFO HikariDataSource.<init>, line 80 -> HikariPool-2 - Starting...
+16-06-2022 18:13:58 INFO HikariDataSource.<init>, line 82 -> HikariPool-2 - Start completed.
+16-06-2022 18:14:14 INFO HikariDataSource.<init>, line 80 -> HikariPool-3 - Starting...
+16-06-2022 18:14:14 INFO HikariDataSource.<init>, line 82 -> HikariPool-3 - Start completed.
+16-06-2022 18:14:15 ERROR UserService.getUserByEmail, line 70 -> com.my.exception.DataNotFoundException: Data not found in DB by request
+16-06-2022 18:14:15 INFO RegisterServlet.doPost, line 41 -> com.my.exception.UserServiceException: Unknown user
+16-06-2022 18:14:15 ERROR MailSender.sendMessageFromFile, line 88 -> java.io.FileNotFoundException: registration.txt (Не удается найти указанный файл)
+16-06-2022 18:16:51 INFO HikariDataSource.<init>, line 80 -> HikariPool-1 - Starting...
+16-06-2022 18:16:52 INFO HikariDataSource.<init>, line 82 -> HikariPool-1 - Start completed.
+16-06-2022 18:16:52 INFO ContextListener.contextInitialized, line 23 -> Connection successful
+16-06-2022 18:17:12 INFO HikariDataSource.<init>, line 80 -> HikariPool-2 - Starting...
+16-06-2022 18:17:12 INFO HikariDataSource.<init>, line 82 -> HikariPool-2 - Start completed.
+16-06-2022 18:17:22 INFO HikariDataSource.<init>, line 80 -> HikariPool-3 - Starting...
+16-06-2022 18:17:22 INFO HikariDataSource.<init>, line 82 -> HikariPool-3 - Start completed.
+16-06-2022 18:17:22 ERROR UserService.getUserByEmail, line 70 -> com.my.exception.DataNotFoundException: Data not found in DB by request
+16-06-2022 18:17:22 INFO RegisterServlet.doPost, line 41 -> com.my.exception.UserServiceException: Unknown user
+16-06-2022 18:17:22 ERROR MailSender.sendMessageFromFile, line 88 -> java.io.FileNotFoundException: \messages\registration.txt (Системе не удается найти указанный путь)
+16-06-2022 18:23:59 INFO HikariDataSource.<init>, line 80 -> HikariPool-4 - Starting...
+16-06-2022 18:24:00 INFO HikariDataSource.<init>, line 82 -> HikariPool-4 - Start completed.
+16-06-2022 18:24:19 INFO HikariDataSource.<init>, line 80 -> HikariPool-5 - Starting...
+16-06-2022 18:24:21 INFO HikariDataSource.<init>, line 82 -> HikariPool-5 - Start completed.
+16-06-2022 18:24:21 INFO ContextListener.contextInitialized, line 23 -> Connection successful
+16-06-2022 18:24:31 INFO HikariDataSource.<init>, line 80 -> HikariPool-6 - Starting...
+16-06-2022 18:24:31 INFO HikariDataSource.<init>, line 82 -> HikariPool-6 - Start completed.
+16-06-2022 18:26:41 INFO HikariDataSource.<init>, line 80 -> HikariPool-1 - Starting...
+16-06-2022 18:26:42 INFO HikariDataSource.<init>, line 82 -> HikariPool-1 - Start completed.
+16-06-2022 18:26:42 INFO ContextListener.contextInitialized, line 23 -> Connection successful
+16-06-2022 18:27:26 INFO HikariDataSource.<init>, line 80 -> HikariPool-2 - Starting...
+16-06-2022 18:27:26 INFO HikariDataSource.<init>, line 82 -> HikariPool-2 - Start completed.
+16-06-2022 18:28:03 INFO HikariDataSource.<init>, line 80 -> HikariPool-3 - Starting...
+16-06-2022 18:28:03 INFO HikariDataSource.<init>, line 82 -> HikariPool-3 - Start completed.
+16-06-2022 18:28:03 ERROR UserService.getUserByEmail, line 70 -> com.my.exception.DataNotFoundException: Data not found in DB by request
+16-06-2022 18:28:03 INFO RegisterServlet.doPost, line 42 -> com.my.exception.UserServiceException: Unknown user
+16-06-2022 18:28:09 ERROR MailSender.sendMessageFromFile, line 88 -> jakarta.mail.AuthenticationFailedException: 535 Incorrect authentication data
+
+16-06-2022 18:32:43 INFO HikariDataSource.<init>, line 80 -> HikariPool-1 - Starting...
+16-06-2022 18:32:44 INFO HikariDataSource.<init>, line 82 -> HikariPool-1 - Start completed.
+16-06-2022 18:32:44 INFO ContextListener.contextInitialized, line 23 -> Connection successful
+16-06-2022 18:32:59 INFO HikariDataSource.<init>, line 80 -> HikariPool-2 - Starting...
+16-06-2022 18:32:59 INFO HikariDataSource.<init>, line 82 -> HikariPool-2 - Start completed.
+16-06-2022 18:33:11 INFO HikariDataSource.<init>, line 80 -> HikariPool-3 - Starting...
+16-06-2022 18:33:11 INFO HikariDataSource.<init>, line 82 -> HikariPool-3 - Start completed.
+16-06-2022 18:33:11 ERROR UserService.getUserByEmail, line 70 -> com.my.exception.DataNotFoundException: Data not found in DB by request
+16-06-2022 18:33:11 INFO RegisterServlet.doPost, line 42 -> com.my.exception.UserServiceException: Unknown user
+16-06-2022 18:35:44 INFO HikariDataSource.<init>, line 80 -> HikariPool-1 - Starting...
+16-06-2022 18:35:45 INFO HikariDataSource.<init>, line 82 -> HikariPool-1 - Start completed.
+16-06-2022 18:35:45 INFO ContextListener.contextInitialized, line 23 -> Connection successful
+16-06-2022 18:35:49 INFO HikariDataSource.<init>, line 80 -> HikariPool-2 - Starting...
+16-06-2022 18:35:49 INFO HikariDataSource.<init>, line 82 -> HikariPool-2 - Start completed.
+16-06-2022 18:35:59 INFO HikariDataSource.<init>, line 80 -> HikariPool-3 - Starting...
+16-06-2022 18:35:59 INFO HikariDataSource.<init>, line 82 -> HikariPool-3 - Start completed.
+16-06-2022 18:35:59 ERROR UserService.getUserByEmail, line 70 -> com.my.exception.DataNotFoundException: Data not found in DB by request
+16-06-2022 18:35:59 INFO RegisterServlet.doPost, line 42 -> com.my.exception.UserServiceException: Unknown user
+16-06-2022 18:39:25 INFO HikariDataSource.<init>, line 80 -> HikariPool-1 - Starting...
+16-06-2022 18:39:26 INFO HikariDataSource.<init>, line 82 -> HikariPool-1 - Start completed.
+16-06-2022 18:39:26 INFO ContextListener.contextInitialized, line 23 -> Connection successful
+16-06-2022 18:39:31 INFO HikariDataSource.<init>, line 80 -> HikariPool-2 - Starting...
+16-06-2022 18:39:32 INFO HikariDataSource.<init>, line 82 -> HikariPool-2 - Start completed.
+16-06-2022 18:40:20 INFO HikariDataSource.<init>, line 80 -> HikariPool-1 - Starting...
+16-06-2022 18:40:21 INFO HikariDataSource.<init>, line 82 -> HikariPool-1 - Start completed.
+16-06-2022 18:40:21 INFO ContextListener.contextInitialized, line 23 -> Connection successful
+16-06-2022 18:40:26 INFO HikariDataSource.<init>, line 80 -> HikariPool-2 - Starting...
+16-06-2022 18:40:26 INFO HikariDataSource.<init>, line 82 -> HikariPool-2 - Start completed.
+16-06-2022 18:40:39 INFO HikariDataSource.<init>, line 80 -> HikariPool-3 - Starting...
+16-06-2022 18:40:39 INFO HikariDataSource.<init>, line 82 -> HikariPool-3 - Start completed.
+16-06-2022 18:40:40 ERROR UserService.getUserByEmail, line 70 -> com.my.exception.DataNotFoundException: Data not found in DB by request
+16-06-2022 18:40:40 INFO RegisterServlet.doPost, line 42 -> com.my.exception.UserServiceException: Unknown user
+16-06-2022 18:41:45 INFO HikariDataSource.<init>, line 80 -> HikariPool-1 - Starting...
+16-06-2022 18:41:46 INFO HikariDataSource.<init>, line 82 -> HikariPool-1 - Start completed.
+16-06-2022 18:41:46 INFO ContextListener.contextInitialized, line 23 -> Connection successful
+16-06-2022 18:42:13 INFO HikariDataSource.<init>, line 80 -> HikariPool-2 - Starting...
+16-06-2022 18:42:13 INFO HikariDataSource.<init>, line 82 -> HikariPool-2 - Start completed.
+16-06-2022 18:42:25 INFO HikariDataSource.<init>, line 80 -> HikariPool-3 - Starting...
+16-06-2022 18:42:25 INFO HikariDataSource.<init>, line 82 -> HikariPool-3 - Start completed.
+16-06-2022 18:42:25 ERROR UserService.getUserByEmail, line 70 -> com.my.exception.DataNotFoundException: Data not found in DB by request
+16-06-2022 18:42:25 INFO RegisterServlet.doPost, line 42 -> com.my.exception.UserServiceException: Unknown user
+16-06-2022 21:06:36 INFO HikariDataSource.<init>, line 80 -> HikariPool-1 - Starting...
+16-06-2022 21:06:38 INFO HikariDataSource.<init>, line 82 -> HikariPool-1 - Start completed.
+16-06-2022 21:06:38 INFO ContextListener.contextInitialized, line 23 -> Connection successful
+16-06-2022 21:07:16 INFO HikariDataSource.<init>, line 80 -> HikariPool-2 - Starting...
+16-06-2022 21:07:16 INFO HikariDataSource.<init>, line 82 -> HikariPool-2 - Start completed.
+16-06-2022 23:03:47 INFO HikariDataSource.<init>, line 80 -> HikariPool-1 - Starting...
+16-06-2022 23:03:49 INFO HikariDataSource.<init>, line 82 -> HikariPool-1 - Start completed.
+16-06-2022 23:03:49 INFO ContextListener.contextInitialized, line 23 -> Connection successful
+16-06-2022 23:04:03 INFO HikariDataSource.<init>, line 80 -> HikariPool-2 - Starting...
+16-06-2022 23:04:03 INFO HikariDataSource.<init>, line 82 -> HikariPool-2 - Start completed.
+16-06-2022 23:04:40 INFO HikariDataSource.<init>, line 80 -> HikariPool-3 - Starting...
+16-06-2022 23:04:40 INFO HikariDataSource.<init>, line 82 -> HikariPool-3 - Start completed.
+16-06-2022 23:04:40 ERROR UserService.getUserByEmail, line 72 -> com.my.exception.DataNotFoundException: Data not found in DB by request
+16-06-2022 23:04:40 INFO RegisterServlet.doPost, line 41 -> com.my.exception.UserServiceException: Unknown user
+16-06-2022 23:04:40 ERROR MailSender.sendMessageFromFile, line 90 -> java.io.FileNotFoundException: registration.txt (Не удается найти указанный файл)
+16-06-2022 23:06:03 INFO HikariDataSource.<init>, line 80 -> HikariPool-1 - Starting...
+16-06-2022 23:06:04 INFO HikariDataSource.<init>, line 82 -> HikariPool-1 - Start completed.
+16-06-2022 23:06:04 INFO ContextListener.contextInitialized, line 23 -> Connection successful
+16-06-2022 23:06:30 INFO HikariDataSource.<init>, line 80 -> HikariPool-2 - Starting...
+16-06-2022 23:06:30 INFO HikariDataSource.<init>, line 82 -> HikariPool-2 - Start completed.
+16-06-2022 23:06:31 ERROR UserService.getUserByEmail, line 72 -> com.my.exception.DataNotFoundException: Data not found in DB by request
+16-06-2022 23:06:31 INFO RegisterServlet.doPost, line 41 -> com.my.exception.UserServiceException: Unknown user
+16-06-2022 23:06:32 ERROR MailSender.sendMessageFromFile, line 90 -> java.io.FileNotFoundException: registration.txt (Не удается найти указанный файл)
+16-06-2022 23:11:41 INFO HikariDataSource.<init>, line 80 -> HikariPool-1 - Starting...
+16-06-2022 23:11:42 INFO HikariDataSource.<init>, line 82 -> HikariPool-1 - Start completed.
+16-06-2022 23:11:42 INFO ContextListener.contextInitialized, line 23 -> Connection successful
+16-06-2022 23:11:45 INFO HikariDataSource.<init>, line 80 -> HikariPool-2 - Starting...
+16-06-2022 23:11:45 INFO HikariDataSource.<init>, line 82 -> HikariPool-2 - Start completed.
+16-06-2022 23:12:00 INFO HikariDataSource.<init>, line 80 -> HikariPool-3 - Starting...
+16-06-2022 23:12:00 INFO HikariDataSource.<init>, line 82 -> HikariPool-3 - Start completed.
+16-06-2022 23:12:00 ERROR UserService.getUserByEmail, line 71 -> com.my.exception.DataNotFoundException: Data not found in DB by request
+16-06-2022 23:12:00 INFO RegisterServlet.doPost, line 41 -> com.my.exception.UserServiceException: Unknown user
+16-06-2022 23:24:19 INFO HikariDataSource.<init>, line 80 -> HikariPool-4 - Starting...
+16-06-2022 23:24:19 INFO HikariDataSource.<init>, line 82 -> HikariPool-4 - Start completed.
+16-06-2022 23:35:43 INFO HikariDataSource.<init>, line 80 -> HikariPool-1 - Starting...
+16-06-2022 23:35:44 INFO HikariDataSource.<init>, line 82 -> HikariPool-1 - Start completed.
+16-06-2022 23:35:44 INFO ContextListener.contextInitialized, line 23 -> Connection successful
+16-06-2022 23:35:48 INFO HikariDataSource.<init>, line 80 -> HikariPool-2 - Starting...
+16-06-2022 23:35:48 INFO HikariDataSource.<init>, line 82 -> HikariPool-2 - Start completed.
+16-06-2022 23:36:12 INFO HikariDataSource.<init>, line 80 -> HikariPool-3 - Starting...
+16-06-2022 23:36:12 INFO HikariDataSource.<init>, line 82 -> HikariPool-3 - Start completed.
+16-06-2022 23:36:12 ERROR UserService.getUserByEmail, line 71 -> com.my.exception.DataNotFoundException: Data not found in DB by request
+16-06-2022 23:36:12 INFO RegisterServlet.doPost, line 41 -> com.my.exception.UserServiceException: Unknown user
+16-06-2022 23:55:29 INFO HikariDataSource.<init>, line 80 -> HikariPool-1 - Starting...
+16-06-2022 23:55:30 INFO HikariDataSource.<init>, line 82 -> HikariPool-1 - Start completed.
+16-06-2022 23:55:30 INFO ContextListener.contextInitialized, line 23 -> Connection successful
+16-06-2022 23:55:46 INFO HikariDataSource.<init>, line 80 -> HikariPool-2 - Starting...
+16-06-2022 23:55:46 INFO HikariDataSource.<init>, line 82 -> HikariPool-2 - Start completed.
+16-06-2022 23:56:03 INFO HikariDataSource.<init>, line 80 -> HikariPool-3 - Starting...
+16-06-2022 23:56:03 INFO HikariDataSource.<init>, line 82 -> HikariPool-3 - Start completed.
+16-06-2022 23:56:21 INFO HikariDataSource.<init>, line 80 -> HikariPool-4 - Starting...
+16-06-2022 23:56:21 INFO HikariDataSource.<init>, line 82 -> HikariPool-4 - Start completed.
+16-06-2022 23:56:31 ERROR UserService.getUserById, line 86 -> com.my.exception.DataNotFoundException: Data not found in DB by request
+16-06-2022 23:56:31 ERROR ChangeBookingStatusServlet.doPost, line 40 -> com.my.exception.UserServiceException: Unknown user
+17-06-2022 00:00:17 INFO HikariDataSource.<init>, line 80 -> HikariPool-1 - Starting...
+17-06-2022 00:00:18 INFO HikariDataSource.<init>, line 82 -> HikariPool-1 - Start completed.
+17-06-2022 00:00:18 INFO ContextListener.contextInitialized, line 23 -> Connection successful
+17-06-2022 00:00:23 INFO HikariDataSource.<init>, line 80 -> HikariPool-2 - Starting...
+17-06-2022 00:00:23 INFO HikariDataSource.<init>, line 82 -> HikariPool-2 - Start completed.
+17-06-2022 00:00:32 INFO HikariDataSource.<init>, line 80 -> HikariPool-3 - Starting...
+17-06-2022 00:00:32 INFO HikariDataSource.<init>, line 82 -> HikariPool-3 - Start completed.
+17-06-2022 00:00:35 INFO HikariDataSource.<init>, line 80 -> HikariPool-4 - Starting...
+17-06-2022 00:00:35 INFO HikariDataSource.<init>, line 82 -> HikariPool-4 - Start completed.
+17-06-2022 00:04:44 INFO HikariDataSource.<init>, line 80 -> HikariPool-1 - Starting...
+17-06-2022 00:04:44 INFO HikariDataSource.<init>, line 82 -> HikariPool-1 - Start completed.
+17-06-2022 00:04:44 INFO ContextListener.contextInitialized, line 23 -> Connection successful
+17-06-2022 00:04:48 INFO HikariDataSource.<init>, line 80 -> HikariPool-2 - Starting...
+17-06-2022 00:04:48 INFO HikariDataSource.<init>, line 82 -> HikariPool-2 - Start completed.
+17-06-2022 00:04:56 INFO HikariDataSource.<init>, line 80 -> HikariPool-3 - Starting...
+17-06-2022 00:04:56 INFO HikariDataSource.<init>, line 82 -> HikariPool-3 - Start completed.
+17-06-2022 00:04:59 INFO HikariDataSource.<init>, line 80 -> HikariPool-4 - Starting...
+17-06-2022 00:04:59 INFO HikariDataSource.<init>, line 82 -> HikariPool-4 - Start completed.
+19-06-2022 13:48:20 INFO HikariDataSource.<init>, line 80 -> HikariPool-1 - Starting...
+19-06-2022 13:48:21 INFO HikariDataSource.<init>, line 82 -> HikariPool-1 - Start completed.
+19-06-2022 13:48:21 INFO ContextListener.contextInitialized, line 23 -> Connection successful
+19-06-2022 13:48:30 INFO HikariDataSource.<init>, line 80 -> HikariPool-2 - Starting...
+19-06-2022 13:48:30 INFO HikariDataSource.<init>, line 82 -> HikariPool-2 - Start completed.
+19-06-2022 13:51:16 INFO HikariDataSource.<init>, line 80 -> HikariPool-3 - Starting...
+19-06-2022 13:51:16 INFO HikariDataSource.<init>, line 82 -> HikariPool-3 - Start completed.
+19-06-2022 14:03:38 INFO HikariDataSource.<init>, line 80 -> HikariPool-4 - Starting...
+19-06-2022 14:03:38 INFO HikariDataSource.<init>, line 82 -> HikariPool-4 - Start completed.
+19-06-2022 14:44:06 ERROR BookingService.getBookingsByStatus, line 163 -> com.my.exception.DataNotFoundException: Data not found in DB by request
+19-06-2022 14:44:06 INFO CabinetAdminPanelServlet.doGet, line 42 -> com.my.exception.BookingServiceException: Cannot find bookings by status
+19-06-2022 14:44:08 ERROR BookingService.getBookingsByStatus, line 163 -> com.my.exception.DataNotFoundException: Data not found in DB by request
+19-06-2022 14:44:08 INFO CabinetAdminPanelServlet.doGet, line 42 -> com.my.exception.BookingServiceException: Cannot find bookings by status
+19-06-2022 14:44:08 ERROR BookingService.getBookingsByStatus, line 163 -> com.my.exception.DataNotFoundException: Data not found in DB by request
+19-06-2022 14:44:08 INFO CabinetAdminPanelServlet.doGet, line 42 -> com.my.exception.BookingServiceException: Cannot find bookings by status
+19-06-2022 14:44:09 ERROR BookingService.getBookingsByStatus, line 163 -> com.my.exception.DataNotFoundException: Data not found in DB by request
+19-06-2022 14:44:09 INFO CabinetAdminPanelServlet.doGet, line 42 -> com.my.exception.BookingServiceException: Cannot find bookings by status
+19-06-2022 14:44:09 ERROR BookingService.getBookingsByStatus, line 163 -> com.my.exception.DataNotFoundException: Data not found in DB by request
+19-06-2022 14:44:09 INFO CabinetAdminPanelServlet.doGet, line 42 -> com.my.exception.BookingServiceException: Cannot find bookings by status
+19-06-2022 14:44:10 ERROR BookingService.getBookingsByStatus, line 163 -> com.my.exception.DataNotFoundException: Data not found in DB by request
+19-06-2022 14:44:10 INFO CabinetAdminPanelServlet.doGet, line 42 -> com.my.exception.BookingServiceException: Cannot find bookings by status
+19-06-2022 14:44:11 ERROR BookingService.getBookingsByStatus, line 163 -> com.my.exception.DataNotFoundException: Data not found in DB by request
+19-06-2022 14:44:11 INFO CabinetAdminPanelServlet.doGet, line 42 -> com.my.exception.BookingServiceException: Cannot find bookings by status
+19-06-2022 14:44:43 ERROR BookingService.getBookingsByStatus, line 163 -> com.my.exception.DataNotFoundException: Data not found in DB by request
+19-06-2022 14:44:43 INFO CabinetAdminPanelServlet.doGet, line 42 -> com.my.exception.BookingServiceException: Cannot find bookings by status
+19-06-2022 14:44:44 ERROR BookingService.getBookingsByStatus, line 163 -> com.my.exception.DataNotFoundException: Data not found in DB by request
+19-06-2022 14:44:44 INFO CabinetAdminPanelServlet.doGet, line 42 -> com.my.exception.BookingServiceException: Cannot find bookings by status
+19-06-2022 14:44:45 ERROR BookingService.getBookingsByStatus, line 163 -> com.my.exception.DataNotFoundException: Data not found in DB by request
+19-06-2022 14:44:45 INFO CabinetAdminPanelServlet.doGet, line 42 -> com.my.exception.BookingServiceException: Cannot find bookings by status
+19-06-2022 14:45:17 ERROR BookingService.getStatuses, line 80 -> com.my.exception.DBConnectionException: HikariPool-4 - Connection is not available, request timed out after 30019ms.
+19-06-2022 14:45:17 ERROR CabinetAdminPanelServlet.doGet, line 28 -> com.my.exception.BookingServiceException: Cannot determine booking status
+19-06-2022 14:45:47 ERROR BookingService.getBookingsByStatus, line 163 -> com.my.exception.DBConnectionException: HikariPool-4 - Connection is not available, request timed out after 30002ms.
+19-06-2022 14:45:47 INFO CabinetAdminPanelServlet.doGet, line 42 -> com.my.exception.BookingServiceException: Cannot find bookings by status
+19-06-2022 14:46:24 ERROR HotelRoomService.getAllRoomsThanGroupByInfo, line 39 -> com.my.exception.DBConnectionException: HikariPool-4 - Connection is not available, request timed out after 30007ms.
+19-06-2022 14:46:24 ERROR MainServlet.doGet, line 29 -> com.my.exception.HotelRoomServiceException: No data on the specification request
+19-06-2022 14:47:01 ERROR HotelRoomService.getAllRoomsThanGroupByInfo, line 39 -> com.my.exception.DBConnectionException: HikariPool-4 - Connection is not available, request timed out after 30011ms.
+19-06-2022 14:47:01 ERROR MainServlet.doGet, line 29 -> com.my.exception.HotelRoomServiceException: No data on the specification request
+19-06-2022 14:47:10 ERROR HotelRoomService.getAllRoomsThanGroupByInfo, line 39 -> com.my.exception.DBConnectionException: HikariPool-4 - Connection is not available, request timed out after 30010ms.
+19-06-2022 14:47:10 ERROR MainServlet.doGet, line 29 -> com.my.exception.HotelRoomServiceException: No data on the specification request
+19-06-2022 14:47:29 INFO HikariDataSource.<init>, line 80 -> HikariPool-1 - Starting...
+19-06-2022 14:47:29 INFO HikariDataSource.<init>, line 82 -> HikariPool-1 - Start completed.
+19-06-2022 14:47:29 INFO ContextListener.contextInitialized, line 23 -> Connection successful
+19-06-2022 15:31:38 INFO HikariDataSource.<init>, line 80 -> HikariPool-1 - Starting...
+19-06-2022 15:31:39 INFO HikariDataSource.<init>, line 82 -> HikariPool-1 - Start completed.
+19-06-2022 15:31:39 INFO ContextListener.contextInitialized, line 23 -> Connection successful
+19-06-2022 15:31:43 INFO HikariDataSource.<init>, line 80 -> HikariPool-2 - Starting...
+19-06-2022 15:31:43 INFO HikariDataSource.<init>, line 82 -> HikariPool-2 - Start completed.
+19-06-2022 15:39:38 INFO HikariDataSource.<init>, line 80 -> HikariPool-3 - Starting...
+19-06-2022 15:39:38 INFO HikariDataSource.<init>, line 82 -> HikariPool-3 - Start completed.
+19-06-2022 15:39:38 ERROR UserService.getUserByEmail, line 71 -> com.my.exception.DataNotFoundException: Data not found in DB by request
+19-06-2022 15:39:38 INFO RegisterServlet.doPost, line 41 -> com.my.exception.UserServiceException: Unknown user
+20-06-2022 00:47:55 INFO HikariDataSource.<init>, line 80 -> HikariPool-1 - Starting...
+20-06-2022 00:48:00 INFO HikariDataSource.<init>, line 82 -> HikariPool-1 - Start completed.
+20-06-2022 00:48:00 INFO ContextListener.contextInitialized, line 23 -> Connection successful
+20-06-2022 00:48:10 INFO HikariDataSource.<init>, line 80 -> HikariPool-2 - Starting...
+20-06-2022 00:48:10 INFO HikariDataSource.<init>, line 82 -> HikariPool-2 - Start completed.
+20-06-2022 00:52:56 INFO HikariDataSource.<init>, line 80 -> HikariPool-3 - Starting...
+20-06-2022 00:52:56 INFO HikariDataSource.<init>, line 82 -> HikariPool-3 - Start completed.
+20-06-2022 00:53:14 INFO HikariDataSource.<init>, line 80 -> HikariPool-4 - Starting...
+20-06-2022 00:53:14 INFO HikariDataSource.<init>, line 82 -> HikariPool-4 - Start completed.
+20-06-2022 00:53:15 ERROR BookingService.getBookingsByUserId, line 95 -> com.my.exception.DataNotFoundException: Data not found in DB by request
+20-06-2022 00:53:15 INFO CabinetGuestBookingServlet.doGet, line 26 -> com.my.exception.BookingServiceException: Cannot find bookings for user
+20-06-2022 00:53:17 ERROR BookingService.getBookingsByUserId, line 95 -> com.my.exception.DataNotFoundException: Data not found in DB by request
+20-06-2022 00:53:17 INFO CabinetGuestBookingServlet.doGet, line 26 -> com.my.exception.BookingServiceException: Cannot find bookings for user
+20-06-2022 13:08:53 INFO HikariDataSource.<init>, line 80 -> HikariPool-1 - Starting...
+20-06-2022 13:08:55 INFO HikariDataSource.<init>, line 82 -> HikariPool-1 - Start completed.
+20-06-2022 13:08:55 INFO ContextListener.contextInitialized, line 23 -> Connection successful
+20-06-2022 13:09:02 INFO HikariDataSource.<init>, line 80 -> HikariPool-2 - Starting...
+20-06-2022 13:09:03 INFO HikariDataSource.<init>, line 82 -> HikariPool-2 - Start completed.
+20-06-2022 13:22:42 INFO HikariDataSource.<init>, line 80 -> HikariPool-3 - Starting...
+20-06-2022 13:22:43 INFO HikariDataSource.<init>, line 82 -> HikariPool-3 - Start completed.
+20-06-2022 13:22:47 INFO HikariDataSource.<init>, line 80 -> HikariPool-4 - Starting...
+20-06-2022 13:22:47 INFO HikariDataSource.<init>, line 82 -> HikariPool-4 - Start completed.
+20-06-2022 13:22:47 ERROR BookingService.getBookingsByUserId, line 95 -> com.my.exception.DataNotFoundException: Data not found in DB by request
+20-06-2022 13:22:47 INFO CabinetGuestBookingServlet.doGet, line 26 -> com.my.exception.BookingServiceException: Cannot find bookings for user
+20-06-2022 13:22:48 ERROR BookingService.getBookingsByUserId, line 95 -> com.my.exception.DataNotFoundException: Data not found in DB by request
+20-06-2022 13:22:48 INFO CabinetGuestBookingServlet.doGet, line 26 -> com.my.exception.BookingServiceException: Cannot find bookings for user
+20-06-2022 13:22:49 ERROR BookingService.getBookingsByUserId, line 95 -> com.my.exception.DataNotFoundException: Data not found in DB by request
+20-06-2022 13:22:49 INFO CabinetGuestBookingServlet.doGet, line 26 -> com.my.exception.BookingServiceException: Cannot find bookings for user
+20-06-2022 13:22:49 ERROR BookingService.getBookingsByUserId, line 95 -> com.my.exception.DataNotFoundException: Data not found in DB by request
+20-06-2022 13:22:49 INFO CabinetGuestBookingServlet.doGet, line 26 -> com.my.exception.BookingServiceException: Cannot find bookings for user
+20-06-2022 13:22:50 ERROR BookingService.getBookingsByUserId, line 95 -> com.my.exception.DataNotFoundException: Data not found in DB by request
+20-06-2022 13:22:50 INFO CabinetGuestBookingServlet.doGet, line 26 -> com.my.exception.BookingServiceException: Cannot find bookings for user
+20-06-2022 13:47:40 ERROR BookingService.getBookingsByUserId, line 95 -> com.my.exception.DataNotFoundException: Data not found in DB by request
+20-06-2022 13:47:40 INFO CabinetGuestBookingServlet.doGet, line 26 -> com.my.exception.BookingServiceException: Cannot find bookings for user

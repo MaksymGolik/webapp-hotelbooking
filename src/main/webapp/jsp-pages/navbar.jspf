@@ -1,0 +1,21 @@
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<%@ page language="java" contentType="text/html; charset=utf-8" pageEncoding="utf-8"%>
+
+    <nav id="nav">
+        <div class="nav-menu left">
+            <span class="gradient skew"><h1 class="logo un-skew"><a href="home">Головна</a></h1></span>
+            <button id="menu" class="btn-nav"><span class="fas fa-bars"></span></button>
+        </div>
+        <div class="nav-menu right">
+        <a href="top" class="nav-link"><span class="nav-link-span"><span class="u-nav">Топ бронювань</span></span></a>
+            <c:choose>
+                <c:when test="${sessionScope.currentUser == null}">
+                    <a href="login" class="nav-link"><span class="nav-link-span"><span class="u-nav">Вхід</span></span></a>
+                </c:when>
+                <c:otherwise>
+                    <a href="cabinet" class="nav-link"><span class="nav-link-span"><span class="u-nav">Профіль</span></span></a>
+                    <a href="logout" class="nav-link"><span class="nav-link-span"><span class="u-nav">Вихід</span></span></a>
+                </c:otherwise>
+               </c:choose>
+        </div>
+    </nav>
