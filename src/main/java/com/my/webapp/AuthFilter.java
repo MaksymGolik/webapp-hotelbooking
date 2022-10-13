@@ -27,7 +27,6 @@ public class AuthFilter implements Filter {
                          final FilterChain filterChain)
 
             throws IOException, ServletException {
-        System.out.println("AuthFilter#doFilter");
 
         final HttpServletRequest req = (HttpServletRequest) request;
 
